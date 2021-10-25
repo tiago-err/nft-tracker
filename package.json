@@ -1,0 +1,27 @@
+{
+  "name": "nft-tracker",
+  "version": "1.0.0",
+  "description": "A Tracker for NFT prices (server repository)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiago-err/nft-tracker.git"
+  },
+  "keywords": [
+    "nft",
+    "tracker",
+    "solana",
+    "eth",
+    "ethereum",
+    "crypto"
+  ],
+  "author": "tiago-err",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/tiago-err/nft-tracker/issues"
+  },
+  "homepage": "https://github.com/tiago-err/nft-tracker#readme"
+}
