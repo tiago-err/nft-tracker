@@ -1,0 +1,8 @@
+version: "3"
+services:
+   nft_tracker:
+      container_name: nft_tracker
+      build: ./
+      image: result/latest
+      environment:
+      restart: unless-stopped
