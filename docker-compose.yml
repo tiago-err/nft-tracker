@@ -6,3 +6,7 @@ services:
       image: result/latest
       environment:
       restart: unless-stopped
+      ports:
+        - 8080:8080
+      environment:
+        - NODE_ENV=development
