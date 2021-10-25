@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "outDir": "./built",
+        "allowJs": true,
+        "esModuleInterop": true,
+        "target": "es6",
+        "baseUrl": ".",
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "module": "commonjs",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "paths": {
+            "@interfaces": [
+                "interfaces.ts"
+            ]
+        },
+    },
+    "include": [
+        "next-env.d.ts",
+        "**/*.ts",
+        "**/*.tsx"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+}
