@@ -15,23 +15,23 @@
         "jsx": "preserve",
         "baseUrl": ".",
         "paths": {
-            "@interfaces": [
-                "interfaces.ts"
+            "@interfaces/*": [
+                "./interfaces/*"
             ],
             "@helpers/*": [
-                "helpers/*"
+                "./helpers/*"
             ],
             "@constants/*": [
-                "constants/*"
+                "./constants/*"
             ],
             "@controllers/*": [
-                "controllers/*"
+                "./controllers/*"
             ],
             "@middlewares/*": [
-                "middlewares/*"
+                "./middlewares/*"
             ],
             "@routes/*": [
-                "routes/*"
+                "./routes/*"
             ],
         },
     },
@@ -43,4 +43,5 @@
     "exclude": [
         "node_modules"
     ],
+    "extends": "@tsconfig/recommended/tsconfig.json"
 }

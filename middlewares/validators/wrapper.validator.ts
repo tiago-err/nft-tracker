@@ -1,7 +1,7 @@
 import express from "express";
 import {ValidationChain, validationResult} from "express-validator";
 import * as methods from "@helpers/methods";
-import {VALIDATION_FAIL_CODE} from "@constants/errorCodes";
+import {VALIDATION_FAIL_CODE} from "@constants/errorCodes.constant";
 
 /**
  * sequential processing, stops running validations chain if the previous one have failed.
