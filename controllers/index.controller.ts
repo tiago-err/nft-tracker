@@ -1,5 +1,5 @@
 import {Request, Response} from "express";
-import {successResponse} from "@helpers/methods";
+import {successResponse} from "../helpers/methods";
 
 /**
  *

@@ -1,5 +1,5 @@
 require("dotenv").config();
-import errorMiddleware from "@middlewares/error.middleware";
+import errorMiddleware from "./middlewares/error.middleware";
 
 import express from "express";
 import {api} from "./routes/api";

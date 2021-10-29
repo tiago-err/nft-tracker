@@ -1,7 +1,7 @@
 import {Express} from "express-serve-static-core";
-import * as IndexController from "@controllers/index.controller";
-import {validate} from "@middlewares/validators/wrapper.validator";
-import {indexValidator} from "@middlewares/validators/index.validations";
+import * as IndexController from "../controllers/index.controller";
+import {validate} from "../middlewares/validators/wrapper.validator";
+import {indexValidator} from "../middlewares/validators/index.validations";
 
 /**
  *

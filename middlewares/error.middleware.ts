@@ -1,6 +1,6 @@
 import type {ErrorRequestHandler} from "express";
-import * as methods from "@helpers/methods";
-import {EXCEPTION_CODE} from "@constants/errorCodes.constant";
+import * as methods from "../helpers/methods";
+import {EXCEPTION_CODE} from "../constants/errorCodes.constant";
 
 /**
  *
